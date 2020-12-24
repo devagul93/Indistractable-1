@@ -923,6 +923,14 @@ body {
 			    height: 800px;
 			}
 
+			.benefit-card-text-body {
+				align-items: center !important;
+			}
+
+			.benefit-card-title, .benefit-card-desc {
+				text-align: center;
+			}
+
 			.benefit-card-img {
 			    width: 50%;
 			}
