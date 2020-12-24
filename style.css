@@ -812,6 +812,11 @@ body {
 			    margin-left: 0px;
 			}
 
+			.about-us-card-img2 {
+			     margin-right: 0px; 
+			     width: 120%;
+			}
+
 			.product-btn {
 			    margin: 20px 0 50px;
 			}
@@ -971,7 +976,7 @@ body {
 			    margin: 0 10px;
 			}
 
-			.footer-social-icon, img, svg {
+			.footer-social-icon > img {
 			    width: 32px;
 			}
 
