@@ -1,0 +1,982 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/* Font Files */
+
+		/* Graphik Web Font */
+
+		@font-face { 
+			font-family: GraphikWeb-semibold; 
+			src: url('Assets/Fonts/Graphik Web Semibold Regular.ttf'); 
+		}
+
+		@font-face { 
+			font-family: GraphikWeb-medium; 
+			src: url('Assets/Fonts/Graphik Web Medium Regular.ttf'); 
+		}
+
+		@font-face { 
+			font-family: GraphikWeb; 
+			src: url('Assets/Fonts/Graphik Web Regular Regular.ttf'); 
+		}
+
+		/* End - Graphik Web Font */
+
+		/* Space Mono Font */
+
+		@font-face { 
+			font-family: SpaceMono-bold; 
+			src: url('Assets/Fonts/SpaceMono-Bold.ttf'); 
+		}
+
+		@font-face { 
+			font-family: SpaceMono; 
+			src: url('Assets/Fonts/SpaceMono-Regular.ttf'); 
+		}
+
+		/* End - Space Mono Font */
+
+
+/* End - Font Files */
+
+html {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+	font-family: SpaceMono, sans-serif;
+	background: var(--black-bg);
+	color: var(--white-1);
+	scroll-behavior: smooth;
+}
+
+.padding-wrapper {
+	padding: 0 80px;
+}
+
+/* Style Guide CSS - Desktop */
+
+.rectangle {
+	width: 160px;
+	height: 80px;
+	border: 1px solid #222; 
+	margin-right: 20px; 
+}
+
+		/* Colors */
+
+		/* Green */
+
+		:root {
+		  --green-primary: #17E7C4;
+		  --green-gradient: linear-gradient(90deg, #00D6B2 0%, #5DDDC7 100%);
+		}
+
+		.green-primary {
+			background: var(--green-primary);
+		}
+
+		.green-gradient {
+			background: var(--green-gradient);
+		}
+		
+		/* End - Green */
+
+
+		/* White */
+
+		:root {
+		  --white-1: #FFF;
+		  --white-2: #F3F3F3;
+		  --white-3: #ABB0BA;
+		  --white-4: #74787E;
+		  --white-gradient: linear-gradient(90deg, #F3F3F3 0%, #D9E0ED 100%);
+		}
+
+		.white-1 {
+			background: var(--white-1);
+		}
+
+		.white-2 {
+			background: var(--white-2);
+		}
+
+		.white-3 {
+			background: var(--white-3);
+		}
+
+		.white-4 {
+			background: var(--white-4);
+		}
+
+		.white-gradient {
+			background: var(--white-gradient);
+		}
+
+		/* End - White */
+
+
+		/* Black */
+
+		:root {
+		  --black-bg: #090A0A;
+		  --black-1: #101112;
+		  --black-2: #212224;
+		  --black-3: #434447;
+		  --black-gradient: linear-gradient(270deg, #212224 0%, #090A0A 100%);
+		}
+
+		.black-bg {
+			background: var(--black-bg);
+		}
+
+		.black-1 {
+			background: var(--black-1);
+		}
+
+		.black-2 {
+			background: var(--black-2);
+		}
+
+		.black-3 {
+			background: var(--black-3);
+		}
+
+		.black-gradient {
+			background: var(--black-gradient);
+		}
+
+		/* End - Black */
+
+		/* End Colors */
+
+
+
+		/* Fonts/Type */
+
+		.h1 {
+			font-family: GraphikWeb-semibold;
+			font-size: 48px;
+			line-height: 125%;
+			color: var(--white-1);
+		}
+
+		.h2 {
+			font-family: GraphikWeb-semibold;
+			font-size: 36px;
+			line-height: 139%;
+			color: var(--white-1);
+		}
+
+		.h3 {
+			font-family: GraphikWeb-semibold;
+			font-size: 30px;
+			line-height: 133%;
+			color: var(--white-1);
+		}
+
+		.h4 {
+			font-family: GraphikWeb-semibold;
+			font-size: 26px;
+			line-height: 138%;
+			color: var(--white-1);
+		}
+
+		.h5 {
+			font-family: SpaceMono-bold;
+			font-size: 22px;
+			line-height: 150%;
+			color: var(--white-1);
+		}
+
+		.h6 {
+			font-family: SpaceMono-bold;
+			font-size: 18px;
+			line-height: 150%;
+			color: var(--white-1); 
+		}
+
+		.body-text {
+			font-family: SpaceMono;
+			font-size: 16px;
+			line-height: 174%;
+			color: var(--white-3);
+		}
+
+		.body-text-2 {
+			font-family: SpaceMono;
+			font-size: 14px;
+			line-height: 171%;
+			color: var(--white-3);
+		}
+
+		.label-text {
+			font-family: SpaceMono;
+			font-size: 10px;
+			line-height: 150%;
+			color: var(--white-3);
+		}
+
+		.block-quote {
+			font-family: SpaceMono-bold;
+			font-size: 18px;
+			line-height: 150%;
+			color: var(--white-1);
+		}
+
+		.green-text {
+			color: var(--green-primary);
+		}
+
+		/* End - Fonts/Type */		
+
+/* End - Style Guide CSS - Desktop */
+
+
+/* Components - Desktop */
+
+	/* Navbar */
+
+		.nav-bg {
+			background: var(--black-bg);
+		}
+	
+		.nav-logo img {
+			width: 90%;
+			padding: 10px 0;
+		}
+
+	/* End - Navbar */
+
+	/* Footer */
+
+		footer {
+			background: var(--black-2);
+			padding: 20px 0;
+			z-index: 5;
+		}
+
+		.footer-wrapper {
+			justify-content: space-between;
+		}
+
+		.social-icon {
+			text-decoration: none;
+			margin-right: 24px;
+		}
+
+		.footer-wrapper > p {
+			color: var(--white-3) !important;
+			margin-bottom: 0;
+			margin-top: 4px;
+			font-family: GraphikWeb-medium;
+		}
+
+	/* End - Footer */
+
+	/* Home Page */
+
+		/* Hero Section */
+
+		.hero-section {
+				width: 100vw;
+				height: 90vh;
+				max-width: 100%;
+				max-height: 100%;
+				z-index: 5;
+			}
+
+			.hero-content-wrapper {
+				width: 100%;
+				height: 90vh;
+				/*margin-bottom: 30px;*/
+			}
+
+			.hero-img {
+				width: 160%;
+			}
+
+			.hero-head {
+				font-size: 67px;
+				line-height: 72px;
+				color: var(--white-2);
+				/*margin-top: 80px;*/
+			}
+
+			.hero-desc {
+				color: var(--white-3);
+				margin-bottom: 10px;
+			}
+
+			.btn-group {
+				margin-top: 50px;
+			}
+
+			.btn-default2 {
+				margin-right: 20px;
+			}
+
+			.btn-default2 img {
+				width: 100%;
+			}
+
+			.btn-default {
+				background: var(--green-gradient);
+				padding: 10px 20px;
+				color: var(--black-1);
+				border: none;
+				font-family: GraphikWeb-medium;
+				--hover: #F5F7FA;
+				transition: all .4s ease-in-out;
+			}
+
+			.btn-default:hover, .btn-default:focus {
+				color: var(--black-1);
+				border: none;
+				box-shadow: inset 16em 0 0 0 var(--hover);
+			}
+
+		/* End - Hero Section */
+
+
+		/* How it works Section */
+
+			.how-it-works-section {
+				width: 100%;
+				height: 600px;
+				background: var(--black-1);
+				z-index: 1;
+			}
+
+			.how-it-works-img {
+			    width: 100%;
+			    height: 100%;
+			    background: url("Assets/Images/How it works.png");
+			    background-repeat: no-repeat;
+			    background-position: center 35%;
+			}
+
+			.how-it-works-overlay {
+				width: 100%;
+				height: 100%;
+				background: rgba(16, 17, 18, 0.15);
+			}
+
+			.how-it-works-play {
+				margin-top: -110px;
+				cursor: pointer;
+			}
+
+			.play-btn {
+				/*width: 100%;*/
+				margin-right: 12px;
+			}
+
+			.play-btn-text {
+				font-family: GraphikWeb-medium;
+				font-size: 20px;
+				margin-top: 10px;
+			}
+
+			.video-modal {
+				width: 100%;
+				height: 75vh;
+				background: rgba(67,68,71,.5);
+			}
+
+			.video-header {
+				border: none;
+			}
+
+			.video-modal-close {
+				/*color: var(--white-1) !important;*/
+			}
+
+			.video-embed {
+				width: 100%;
+				height: 100%;
+			}
+
+		/* End - How it works Section */
+
+
+		/* Benefits Section */
+
+			section {
+				padding: 100px 0 120px;
+			}
+
+			.benefits-section, .about-us-section {
+				padding: 80px 0;
+			}
+
+			.benefit-card, .product-card {
+				background: none;
+				width: 1000px;
+				height: 420px;
+				margin: 80px 0;
+			}
+
+			.benefit-card-body, .about-us-card-body, .product-card-body {
+				padding: 0;
+				height: 100%;
+			}
+
+			.benefit-card-desc {
+				color: var(--white-3);
+				font-family: SpaceMono;
+				margin-top: 20px;
+			}
+
+			.benefit-card-img {
+				/*width: 100%;*/
+			}
+
+			.overall-benefits-section {
+				background: var(--black-1);
+			}
+
+			.overall-benefits-title {
+				text-align: center;
+				margin-bottom: 12px;
+			}
+
+			.overall-benefits-desc {
+				color: var(--white-3);
+				font-family: SpaceMono;
+				margin-bottom: 80px;
+				text-align: center;
+			}
+
+			.overall-benefits-card {
+				background: none;
+				margin-bottom: 20px;
+			}
+
+			.overall-benefits-card img {
+				width: 100%;
+			}
+
+		/* End - Benefits Section */
+
+		/* About us Section */
+
+			.about-us-card {
+				background: none;
+				/*width: 1000px;
+				height: 420px;*/
+				margin: 80px 0;
+				width: 100%;
+			}
+
+			.about-us-card-desc, .product-card-desc {
+				color: var(--white-3);
+				margin-top: 16px;
+			}
+
+			.about-us-card-img1 {
+				margin-bottom: -60px;
+			}
+
+			.about-us-card-img2 {
+				margin-right: 50px;
+			}
+
+			.about-us-card-body2 {
+				margin-left: 50px;
+			}
+
+			.why-section {
+				background: var(--black-1);
+			}
+
+			.why-desc {
+				margin-top: 20px;
+			}
+
+		/* End - About us Section */
+
+
+		/* Testimonials Section */
+
+			.testimonial-title, .products-title {
+				text-align: center;
+			}
+
+			.testimonial-card {
+				background: var(--white-2);
+				border-radius: 5px;
+				width: 340px;
+				height: 420px;
+				padding: 40px 30px 30px;
+				position: relative;
+				margin-top: 40px;
+			}
+
+			.testimonail-card-desc {
+				color: var(--black-3);
+			}
+
+			.testimonial-card-social-handles {
+				position: absolute;
+			    bottom: 20px;
+			}
+
+			.testimonial-card-social-handle {
+				margin-left: 10px;
+				font-family: GraphikWeb-medium;
+				color: var(--black-3);
+				margin-top: 15px;
+			}
+
+			.testimonial-card-odd {
+				background: rgba(243,243,243,.75);
+			}
+
+		/* End - Testimonials Section */
+
+		/* Products Section */
+
+			.products-section {
+				background: var(--black-1);
+				z-index: 5;
+			}
+
+			.product-btn {
+				margin-top: 40px;
+			}
+
+		/* End- Products Section */	
+
+		/* CTA Section */
+
+			.cta-section {
+				padding: 100px 0;
+				z-index: 1;
+			    max-width: 100%;
+			    /* width: 100%; */
+			    overflow: hidden;
+			}
+
+			.cta-title {
+				text-align: center;
+				/*margin: 12px 0 -10px;*/
+				z-index: 3;
+			}
+
+			.cta-desc {
+				text-align: center;
+				margin: 12px 0 -10px;
+			}
+
+			.cta-wrapper {
+				position: relative;
+			}
+
+			.cta-content-wrapper {
+				z-index: 3;
+			}
+
+			.cta-img-wrapper1 {
+				position: absolute;
+				left: -280px;
+    			bottom: -150px;
+			}
+
+			.cta-img-wrapper2 {
+				position: absolute;
+				right: -280px;
+    			top: -50px;
+			}
+
+			.cta-btn-group {
+				z-index: 3;
+			}
+
+		/* End - CTA Section */
+
+
+		/* Video Modal On Open Do Not Scroll */
+
+			body.modal-open {
+			    overflow: hidden;
+			    position: fixed;
+			}
+			body.viewport-lg {
+			    position: absolute; 
+			}
+
+		/* End - Video Modal On Open Do Not Scroll */
+
+
+/* End - Components -Desktop */
+
+
+
+/* Responsive CSS */
+
+	/* Screen sizes < 1500px */
+
+		@media screen and (max-width: 1499px) {
+
+			.cta-img-wrapper1 {
+			    position: absolute;
+			    left: -280px;
+			    bottom: -120px;
+			}
+
+			.cta-img-wrapper2 {
+				position: absolute;
+				right: -280px;
+    			top: 0px;
+			}
+
+			.cta-img {
+				width: 85%;
+			}
+
+		}
+
+	/* End - Screen sizes < 1400px */
+
+	/* Screen sizes < 1300px */
+
+		@media screen and (max-width: 1299px) {
+
+			.hero-head {
+			    font-size: 56px;
+			}
+
+			.hero-btn-group {
+				flex-direction: column;
+			}
+
+			.btn-default2 {
+			    margin-bottom: 20px;
+			    width: 60%;
+			}
+
+			.hero-img {
+			    width: 200%;
+			}
+
+			.benefit-card, .product-card {
+			    width: 800px;
+			    height: 420px;
+			}
+
+			.cta-btn-group {
+				display: flex;
+				align-items: center !important;
+				justify-content: center !important;
+				flex-direction: column;
+			}
+
+			.cta-btn {
+			    display: flex;
+			    justify-content: center !important;
+			}
+
+			.cta-img-wrapper1 {
+			    position: absolute;
+			    left: -300px;
+			    bottom: -120px;
+			}
+
+			.cta-img-wrapper2 {
+				position: absolute;
+				right: -360px;
+    			top: 0px;
+			}
+
+		}
+
+	/* End - Screen sizes < 1300px */
+
+
+	/* Screen sizes < 1200px */
+
+		@media screen and (max-width: 1199px) {
+
+			.padding-wrapper {
+			    padding: 0;
+			}
+
+			.video-modal {
+			    height: 50vh;
+			}
+
+			.cta-img {
+				width: 75%;
+			}
+		}
+
+	/* End - Screen sizes < 1200px */
+
+
+	/* Screen sizes < 992px */
+
+		@media screen and (max-width: 991px) {
+
+			.how-it-works-overlay {
+				background: rgba(16, 17, 18, 0.5);
+			}
+
+			.video-modal {
+			    height: 40vh;
+			}
+
+			.benefit-card, .product-card {
+			    width: 700px;
+			    height: 420px;
+			}
+
+			.benefit-card-title {
+			    font-size: 44px;
+			    line-height: 56px;
+			}
+
+			.why-content {
+				align-items: flex-start !important;
+			}
+
+			.cta-img {
+				width: 60%;
+			}
+
+			.cta-img-wrapper1 {
+			    position: absolute;
+			    left: -200px;
+			    bottom: 120px;
+			}
+
+			.cta-img-wrapper2 {
+				position: absolute;
+				right: -440px;
+    			top: 240px;
+			}
+
+		}
+
+	/* End - Screen sizes < 992px */
+
+
+	/* Screen sizes < 768px */
+
+		@media screen and (max-width: 767px) {
+
+			.h1 {
+			    font-size: 44px;
+			    line-height: 56px;
+			}
+
+			.hero-desc {
+			    font-family: SpaceMono;
+			    margin-bottom: 10px;
+			}
+
+			.btn-default {
+			    width: 255px;
+			}
+
+			.hero-img {
+			    width: 270%;
+			}
+
+			.benefit-card, .product-card {
+			    width: 500px;
+			    height: 800px;
+			}
+
+			.benefit-card-row, .about-us-card-row {
+				height: 100%;
+			}
+
+			.mobile-first {
+				flex-direction: column-reverse;
+				height: 100%;
+			}
+
+			.benefit-card-img-body {
+				margin: 40px 0 80px;
+			}
+
+			.about-us-card-body2 {
+			    margin-left: 0px;
+			}
+
+			.product-btn {
+			    margin: 20px 0 50px;
+			}
+
+			.product-btn img {
+			    width: 50%;
+			}
+
+			.cta-img {
+				width: 55%;
+			}
+
+			.cta-img-wrapper1 {
+			    position: absolute;
+			    left: -200px;
+			    bottom: 160px;
+			}
+
+			.cta-img-wrapper2 {
+				position: absolute;
+				right: -440px;
+    			top: 290px;
+			}
+
+			.footer-wrapper {
+			    /*justify-content: space-between;*/
+			    flex-direction: column;
+			}
+
+			.footer-social-icons {
+				margin-bottom: 20px;
+			}
+
+			.footer-social-icon {
+			    margin: 0 20px;
+			}
+
+			.footer-copyright {
+				text-align: center;
+			}
+
+		}
+
+	/* End - Screen sizes < 768px */
+
+
+	/* Screen sizes < 576px */
+
+		@media screen and (max-width: 575px) {
+
+			.h1 {
+			    font-size: 36px;
+			    line-height: 44px;
+			}
+
+			.h4 {
+			    /*font-family: Eina-semibold;*/
+			    font-size: 24px;
+			}
+
+			.container {
+				padding: 0 20px;
+			}
+
+			.hero-section {
+			    height: 120vh;
+			}
+
+			.hero-content {
+				margin: 200px 0 40px;
+				align-items: center !important;
+			}
+
+			.hero-desc, .hero-head {
+				text-align: center;
+			}
+
+			.btn-group {
+			    margin-top: 30px;
+			    align-items: center !important;
+			}
+
+			.hero-img-wrapper {
+				margin-bottom: -40px;
+			}
+
+			.hero-img {
+			    width: 120%;
+			}
+
+			.how-it-works-play {
+			    flex-direction: column;
+			    align-items: flex-start !important;
+			    margin-top: -160px;
+			}
+
+			.play-btn {
+			    width: 80px;
+			    margin-right: 12px;
+			}
+
+			.benefit-card, .product-card {
+			    width: 340px;
+			    height: 800px;
+			}
+
+			.benefit-card-img {
+			    width: 50%;
+			}
+
+			.products-section {
+			    padding-bottom: 0;
+			}
+
+			.product-card-body {
+				align-items: center !important;
+			}
+
+			.product-card-desc {
+				text-align: center;
+			}
+
+			.product-btn {
+				display: flex;
+			    justify-content: center !important;
+			}
+
+			.product-btn img {
+			    width: 70%;
+			}
+
+			.product-card-img1 {
+				width: 50%;
+			}
+
+			.product-card-img2 {
+				width: 120%;
+			}
+
+			.cta-img {
+				width: 50%;
+			}
+
+			.cta-img-wrapper1 {
+			    position: absolute;
+			    left: -180px;
+			    bottom: 180px;
+			}
+
+			.cta-img-wrapper2 {
+				position: absolute;
+				right: -500px;
+    			top: 240px;
+			}
+
+			.footer-social-icon {
+			    margin: 0 10px;
+			}
+
+			.footer-social-icon, img, svg {
+			    width: 32px;
+			}
+
+		}
+
+	/* End - Screen sizes < 576px */
+
+/* End Responsive CSS */
