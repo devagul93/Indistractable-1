@@ -335,6 +335,7 @@ body {
 				font-family: GraphikWeb-medium;
 				--hover: #F5F7FA;
 				transition: all .4s ease-in-out;
+				border-radius: 5px !important;
 			}
 
 			.btn-default:hover, .btn-default:focus {
