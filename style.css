@@ -405,6 +405,18 @@ body {
 				height: 100%;
 			}
 
+			/* Video Modal On Open Do Not Scroll */
+
+				body.modal-open {
+				    overflow: hidden;
+				    position: fixed;
+				}
+				body.viewport-lg {
+				    position: absolute; 
+				}
+
+		/* End - Video Modal On Open Do Not Scroll */
+
 		/* End - How it works Section */
 
 
@@ -604,17 +616,7 @@ body {
 		/* End - CTA Section */
 
 
-		/* Video Modal On Open Do Not Scroll */
-
-			body.modal-open {
-			    overflow: hidden;
-			    position: fixed;
-			}
-			body.viewport-lg {
-			    position: absolute; 
-			}
-
-		/* End - Video Modal On Open Do Not Scroll */
+		
 
 
 /* End - Components -Desktop */
