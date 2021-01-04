@@ -1,78 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- SEO Content -->
-		<title>Indistractable - Your Path to Productivity</title>
-		<meta name="title" content="Indistractable - Your Path to Productivity">
-		<meta name="description" content="A minimalist launcher that helps you live your life distraction free. It's the easiest way to focus on your work.">
-		<meta name="robots" content="index, follow" />
-		<!-- Open Graph / Facebook -->
-		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://www.indistractable.xyz/">
-		<meta property="og:title" content="Indistractable - Your Path to Productivity">
-		<meta property="og:description" content="A minimalist launcher that helps you live your life distraction free. It's the easiest way to focus on your work.">
-		<meta property="og:image" content="Assets/Images/Icon-128.png">
-		<!-- Twitter -->
-		<meta property="twitter:card" content="summary_large_image">
-		<meta property="twitter:url" content="https://www.indistractable.xyz/">
-		<meta property="twitter:title" content="Indistractable - Your Path to Productivity">
-		<meta property="twitter:description" content="A minimalist launcher that helps you live your life distraction free. It's the easiest way to focus on your work.">
-		<meta property="twitter:image" content="Assets/Images/Icon-128.png">
-		<!-- End - SEO Content -->
-		<!-- Favicons -->
-		<link rel="icon" type="image/png" href="Assets/Images/Icon-16.webp" sizes="16x16">
-		<link rel="icon" type="image/png" href="Assets/Images/Icon-32.webp" sizes="32x32">
-		<link rel="icon" type="image/png" href="Assets/Images/Icon-48.webp" sizes="48x48">
-		<!-- End - Favicons -->
-		<!-- Stylesheets -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-		<link rel="stylesheet" href="style.css">
-		<link href="Assets/AOS/aos.css" rel="stylesheet">
-		<script src="Assets/AOS/aos.js"></script>
-		<!-- End - Stylesheets -->
-		<!-- Open Graph Content -->
-		<meta property="og:title" content="Indistractable - Your Path to Productivity" />
-		<meta property="og:description" content="A minimalist launcher that helps you live your life distraction free. It's the easiest way to focus on your work." />
-		<meta property="og:url" content="https://www.indistractable.xyz/" />
-		<meta property="og:image" content="Assets/Images/Open Graph Image.webp" />
-		<meta property="og:type" content="website" />
-		<!-- End - Open Graph Content -->
-		
-	</head>
-	<body>
-		<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg navbar-dark nav-bg">
-			<div class="container">
-				<a class="navbar-brand nav-logo mx-auto" href="#">
-					<img src="Assets/Images/Logo.svg" alt="Indistractable">
-				</a>
-			</div>
-		</nav>
-		<!-- End Navbar -->
-		<!-- Hero Section -->
-		<div class="hero-section" id="home">
-			<div class="container">
-				<div class="padding-wrapper">
-					<div class="d-flex align-items-center justify-content-center hero-content-wrapper">
-						<div class="row">
-							<div class="col-sm-6 col-md-6 d-flex align-items-center justify-content-center" data-aos="fade-down">
-								<div class="d-flex align-items-start justify-content-center flex-column hero-content">
-									<h5 class="h5 hero-desc">The path to productivity.</h5>
-									<h1 class="h1 hero-head">The easiest way to <span class="green-text">focus</span> on your work. </h1>
-									<div class="d-flex btn-group hero-btn-group">
-										<a href="https://play.google.com/store/apps/details?id=com.indistractablelauncher.android" class="btn-default2">
-											<img src="Assets/Images/Google play.webp" alt="Indistractable">
-										</a>
-										<a href="https://chrome.google.com/webstore/detail/indistractable-minimalist/kfgejlnmhacpkjolplkdpjfklphfighf" class="btn btn-primary body-text btn-default" target="_blank">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- SEO Content -->
+	<title>Indistractable - Your Path to Productivity</title>
+	<meta name="title" content="Indistractable - Your Path to Productivity">
+	<meta name="description"
+		content="A minimalist launcher that helps you live your life distraction free. It's the easiest way to focus on your work.">
+	<meta name="robots" content="index, follow" />
+
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.indistractable.xyz/">
+	<meta property="og:title" content="Indistractable - Your Path to Productivity">
+	<meta property="og:description"
+		content="A minimalist launcher that helps you live your life distraction free. It's the easiest way to focus on your work.">
+	<meta property="og:image" content="Assets/Images/Open Graph Image.webp">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://www.indistractable.xyz/">
+	<meta property="twitter:title" content="Indistractable - Your Path to Productivity">
+	<meta property="twitter:description"
+		content="A minimalist launcher that helps you live your life distraction free. It's the easiest way to focus on your work.">
+	<meta property="twitter:image" content="Assets/Images/Open Graph Image.webp">
+
+	<!-- End - SEO Content -->
+
+	<!-- Favicons -->
+	<link rel=" icon" type="image/png" href="Assets/Images/Icon-16.webp" sizes="16x16">
+	<link rel="icon" type="image/png" href="Assets/Images/Icon-32.webp" sizes="32x32">
+	<link rel="icon" type="image/png" href="Assets/Images/Icon-48.webp" sizes="48x48">
+	<!-- End - Favicons -->
+	<!-- Stylesheets -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link href="Assets/AOS/aos.css" rel="stylesheet">
+	<script src="Assets/AOS/aos.js"></script>
+	<!-- End - Stylesheets -->
+
+</head>
+
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark nav-bg">
+		<div class="container">
+			<a class="navbar-brand nav-logo mx-auto" href="#">
+				<img src="Assets/Images/Logo.svg" alt="Indistractable">
+			</a>
+		</div>
+	</nav>
+	<!-- End Navbar -->
+	<!-- Hero Section -->
+	<div class="hero-section" id="home">
+		<div class="container">
+			<div class="padding-wrapper">
+				<div class="d-flex align-items-center justify-content-center hero-content-wrapper">
+					<div class="row">
+						<div class="col-sm-6 col-md-6 d-flex align-items-center justify-content-center"
+							data-aos="fade-down">
+							<div class="d-flex align-items-start justify-content-center flex-column hero-content">
+								<h5 class="h5 hero-desc">The path to productivity.</h5>
+								<h1 class="h1 hero-head">The easiest way to <span class="green-text">focus</span> on
+									your work. </h1>
+								<div class="d-flex btn-group hero-btn-group">
+									<a href="https://play.google.com/store/apps/details?id=com.indistractablelauncher.android"
+										class="btn-default2">
+										<img src="Assets/Images/Google play.webp" alt="Indistractable">
+									</a>
+									<a href="https://chrome.google.com/webstore/detail/indistractable-minimalist/kfgejlnmhacpkjolplkdpjfklphfighf"
+										class="btn btn-primary body-text btn-default" target="_blank">
 										Chrome Extension</a>
-									</div>
 								</div>
 							</div>
-							<div class="col-sm-6 col-md-6 d-flex align-items-center justify-content-center" data-aos="fade-left">
-								<div class="d-flex align-items-center justify-content-center hero-img-wrapper">
-									<img src="Assets/Images/Hero.webp" alt="Indistractable" class="hero-img">
+						</div>
+						<div class="col-sm-6 col-md-6 d-flex align-items-center justify-content-center"
+							data-aos="fade-left">
+							<div class="d-flex align-items-center justify-content-center hero-img-wrapper">
+								<img src="Assets/Images/Hero.webp" alt="Indistractable" class="hero-img">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Hero Section -->
+	<!-- How it works Section -->
+	<div class="how-it-works-section">
+		<div class="how-it-works-img">
+			<div class="how-it-works-overlay"></div>
+			<div class="container">
+				<div class="padding-wrapper">
+					<!-- Button trigger modal -->
+					<div class="d-flex align-items-center how-it-works-play" data-bs-toggle="modal"
+						data-bs-target="#howItWorksVideoModal" data-aos="fade-up" data-aos-delay="300">
+						<img src="Assets/Images/Play button.svg" alt="Indistractable" class="play-btn">
+						<h6 class="h6 play-btn-text">Watch now - 2min</h6>
+					</div>
+					<!-- End - Button trigger modal -->
+					<div class="modal fade" id="howItWorksVideoModal" tabindex="-1"
+						aria-labelledby="howItWorksVideoModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered modal-xl">
+							<div class="modal-content video-modal">
+								<div class="modal-body">
+									<iframe src="https://www.youtube.com/embed/ab45GFcm0Co" frameborder="0"
+										class="video-embed"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+										allowfullscreen></iframe>
 								</div>
 							</div>
 						</div>
@@ -80,25 +119,215 @@
 				</div>
 			</div>
 		</div>
-		<!-- End Hero Section -->
-		<!-- How it works Section -->
-		<div class="how-it-works-section">
-			<div class="how-it-works-img">
-				<div class="how-it-works-overlay"></div>
-				<div class="container">
-					<div class="padding-wrapper">
-						<!-- Button trigger modal -->
-						<div class="d-flex align-items-center how-it-works-play" data-bs-toggle="modal" data-bs-target="#howItWorksVideoModal" data-aos="fade-up" data-aos-delay="300">
-							<img src="Assets/Images/Play button.svg" alt="Indistractable" class="play-btn">
-							<h6 class="h6 play-btn-text">Watch now - 2min</h6>
+	</div>
+	<!-- End - How it works Section -->
+	<!-- Benefits Section -->
+	<section class="benefits-section">
+		<div class="container">
+			<div class="padding-wrapper">
+				<div class="d-flex align-items-center justify-content-center flex-column benefit-cards">
+					<!-- Benefit Card 1 -->
+					<div class="card benefit-card">
+						<div class="row benefit-card-row">
+							<div class="col-md-1"></div>
+							<div class="col-md-6" data-aos="fade-right">
+								<div
+									class="card-body d-flex align-items-start justify-content-center flex-column benefit-card-body benefit-card-text-body">
+									<h1 class="card-title h1 benefit-card-title">Clean The Clutter</h1>
+									<h4 class="card-text h4 benefit-card-desc">A simple, minimalistic homescreen to help
+										you to focus on the work.</h4>
+								</div>
+							</div>
+							<div class="col-md-1"></div>
+							<div class="col-md-4" data-aos="fade-left">
+								<div
+									class="card-body d-flex align-items-center justify-content-center flex-column benefit-card-body">
+									<img src="Assets/Images/Benefit 1.webp" alt="..." class="benefit-card-img">
+								</div>
+							</div>
 						</div>
-						<!-- End - Button trigger modal -->
-						<div class="modal fade" id="howItWorksVideoModal" tabindex="-1" aria-labelledby="howItWorksVideoModalLabel" aria-hidden="true">
-							<div class="modal-dialog modal-dialog-centered modal-xl">
-								<div class="modal-content video-modal">
-									<div class="modal-body">
-										<iframe src="https://www.youtube.com/embed/ab45GFcm0Co" frameborder="0" class="video-embed" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-									</div>
+					</div>
+					<!-- End - Benefit Card 1 -->
+					<!-- Benefit Card 2 -->
+					<div class="card benefit-card">
+						<div class="row benefit-card-row mobile-first">
+							<div class="col-md-1"></div>
+							<div class="col-md-4" data-aos="fade-right">
+								<div
+									class="card-body d-flex align-items-center justify-content-center flex-column benefit-card-body benefit-card-img-body">
+									<img src="Assets/Images/Benefit 2.webp" alt="..." class="benefit-card-img">
+								</div>
+							</div>
+							<div class="col-md-1"></div>
+							<div class="col-md-6" data-aos="fade-left">
+								<div
+									class="card-body d-flex align-items-start justify-content-center flex-column benefit-card-body benefit-card-text-body">
+									<h1 class="card-title h1 benefit-card-title">Get Things Done</h1>
+									<h4 class="card-text h4 benefit-card-desc">Stay on top of your day with in-built
+										minimal tasks that you can access on the home screen.</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End - Benefit Card 2 -->
+					<!-- Benefit Card 3 -->
+					<div class="card benefit-card">
+						<div class="row benefit-card-row">
+							<div class="col-md-1"></div>
+							<div class="col-md-6" data-aos="fade-right">
+								<div
+									class="card-body d-flex align-items-start justify-content-center flex-column benefit-card-body benefit-card-text-body">
+									<h1 class="card-title h1 benefit-card-title">Fully Customizable</h1>
+									<h4 class="card-text h4 benefit-card-desc">Customize your launcher by adding &
+										removing widgets,changing fonts, colors, icons & more.</h4>
+								</div>
+							</div>
+							<div class="col-md-1"></div>
+							<div class="col-md-4" data-aos="fade-left">
+								<div
+									class="card-body d-flex align-items-center justify-content-center flex-column benefit-card-body">
+									<img src="Assets/Images/Benefit 3.webp" alt="..." class="benefit-card-img">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End - Benefit Card 3 -->
+					<!-- Benefit Card 4 -->
+					<div class="card benefit-card">
+						<div class="row benefit-card-row mobile-first">
+							<div class="col-md-1"></div>
+							<div class="col-md-4" data-aos="fade-right">
+								<div
+									class="card-body d-flex align-items-center justify-content-center flex-column benefit-card-body benefit-card-img-body">
+									<img src="Assets/Images/Benefit 4.webp" alt="..." class="benefit-card-img">
+								</div>
+							</div>
+							<div class="col-md-1"></div>
+							<div class="col-md-6" data-aos="fade-left">
+								<div
+									class="card-body d-flex align-items-start justify-content-center flex-column benefit-card-body benefit-card-text-body">
+									<h1 class="card-title h1 benefit-card-title">Unlock Productivity</h1>
+									<h4 class="card-text h4 benefit-card-desc">Customise home screen to show year
+										progress & day progress to Focus on what matters.</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End - Benefit Card 4 -->
+					<!-- Benefit Card 5 -->
+					<div class="card benefit-card">
+						<div class="row benefit-card-row">
+							<div class="col-md-1"></div>
+							<div class="col-md-6" data-aos="fade-right">
+								<div
+									class="card-body d-flex align-items-start justify-content-center flex-column benefit-card-body benefit-card-text-body">
+									<h1 class="card-title h1 benefit-card-title">Minimal App Drawer</h1>
+									<h4 class="card-text h4 benefit-card-desc">Swipe left on home screen to access all
+										the apps on your phone with a minimal floatable app drawer.</h4>
+								</div>
+							</div>
+							<div class="col-md-1"></div>
+							<div class="col-md-4" data-aos="fade-left">
+								<div
+									class="card-body d-flex align-items-center justify-content-center flex-column benefit-card-body">
+									<img src="Assets/Images/Benefit 5.webp" alt="..." class="benefit-card-img">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End - Benefit Card 5 -->
+					<!-- Benefit Card 6 -->
+					<div class="card benefit-card">
+						<div class="row benefit-card-row mobile-first">
+							<div class="col-md-1"></div>
+							<div class="col-md-4" data-aos="fade-right">
+								<div
+									class="card-body d-flex align-items-center justify-content-center flex-column benefit-card-body benefit-card-img-body">
+									<img src="Assets/Images/Benefit 6.webp" alt="..." class="benefit-card-img">
+								</div>
+							</div>
+							<div class="col-md-1"></div>
+							<div class="col-md-6" data-aos="fade-left">
+								<div
+									class="card-body d-flex align-items-start justify-content-center flex-column benefit-card-body benefit-card-text-body">
+									<h1 class="card-title h1 benefit-card-title">Animated Weather</h1>
+									<h4 class="card-text h4 benefit-card-desc">Get to know the weather when you want to
+										step out with a minimalist weather screen having animated icons.</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End - Benefit Card 6 -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="overall-benefits-section">
+		<div class="container">
+			<div class="padding-wrapper">
+				<div data-aos="fade-down">
+					<h1 class="h1 overall-benefits-title">Indistractable</h1>
+					<h6 class="h6 overall-benefits-desc">Your life without distractions!</h6>
+				</div>
+				<div class="card d-flex align-items-center justify-content-center overall-benefits-card"
+					data-aos="fade-up">
+					<img src="Assets/Images/Overall benefits.webp" alt="Indistractable">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End - Benefits Section -->
+	<!-- About us Section -->
+	<section class="about-us-section">
+		<div class="container">
+			<div class="padding-wrapper">
+				<div class="d-flex align-items-center justify-content-center flex-column about-us-cards">
+					<div class="card about-us-card">
+						<div class="row about-us-card-row">
+							<!-- <div class="col-md-1"></div> -->
+							<div class="col-md-7" data-aos="fade-right">
+								<div
+									class="card-body d-flex align-items-start justify-content-center flex-column about-us-card-body about-us-card-body2">
+									<h2 class="card-title h2 about-us-card-title">What is Indistractable?</h2>
+									<p class="card-text body-text about-us-card-desc">We are hooked to our phone and
+										living in a barrage of notifications all day long. Indistractable is a
+										minimalist launcher that helps you live your life distraction free. Yup, it’s
+										time we retake our minds and jump in on this journey of living distraction
+										minimal. <br><br>
+										It’s a simple, ad-free and distraction free launcher with support for a bunch of
+										customizations for your most important tasks. Rediscover how you can be more
+										productive in less time and live a life you always wanted.</p>
+								</div>
+							</div>
+							<!-- <div class="col-md-1"></div> -->
+							<div class="col-md-5" data-aos="fade-left">
+								<div
+									class="card-body d-flex align-items-center justify-content-center flex-column about-us-card-body">
+									<img src="Assets/Images/About us 1.webp" alt="..." class="about-us-card-img1">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card about-us-card">
+						<div class="row about-us-card-row mobile-first">
+							<!-- <div class="col-md-1"></div> -->
+							<div class="col-md-5" data-aos="fade-right">
+								<div
+									class="card-body d-flex align-items-center justify-content-center flex-column about-us-card-body">
+									<img src="Assets/Images/About us 2.webp" alt="..." class="about-us-card-img2">
+								</div>
+							</div>
+							<!-- <div class="col-md-1"></div> -->
+							<div class="col-md-7" data-aos="fade-left">
+								<div
+									class="card-body d-flex align-items-start justify-content-center flex-column about-us-card-body about-us-card-body2">
+									<h2 class="card-title h2 about-us-card-title">Who are We?</h2>
+									<p class="card-text body-text about-us-card-desc">We're a small team but super
+										excited to be building a suite of productivity apps to help you live a
+										distraction free life. We believe that time is precious and phones were created
+										to make our lives easier, not the other way around. <br><br>
+										At Indistractable, we strive to create an experience to help you do just that
+										and bring out the most of your digital devices.</p>
 								</div>
 							</div>
 						</div>
@@ -106,370 +335,278 @@
 				</div>
 			</div>
 		</div>
-		<!-- End - How it works Section -->
-		<!-- Benefits Section -->
-		<section class="benefits-section">
-			<div class="container">
-				<div class="padding-wrapper">
-					<div class="d-flex align-items-center justify-content-center flex-column benefit-cards">
-						<!-- Benefit Card 1 -->
-						<div class="card benefit-card">
-							<div class="row benefit-card-row">
-								<div class="col-md-1"></div>
-								<div class="col-md-6" data-aos="fade-right">
-									<div class="card-body d-flex align-items-start justify-content-center flex-column benefit-card-body benefit-card-text-body">
-										<h1 class="card-title h1 benefit-card-title">Clean The Clutter</h1>
-										<h4 class="card-text h4 benefit-card-desc">A simple, minimalistic homescreen to help you to focus on the work.</h4>
-									</div>
-								</div>
-								<div class="col-md-1"></div>
-								<div class="col-md-4" data-aos="fade-left">
-									<div class="card-body d-flex align-items-center justify-content-center flex-column benefit-card-body">
-										<img src="Assets/Images/Benefit 1.webp" alt="..." class="benefit-card-img">
-									</div>
-								</div>
-							</div>
+	</section>
+	<!-- End - About us Section -->
+	<!-- Why Section -->
+	<section class="why-section">
+		<div class="container">
+			<div class="padding-wrapper">
+				<div class="row">
+					<div class="col-md-1 col-lg-2"></div>
+					<div class="col-md-10 col-lg-8">
+						<div class="d-flex align-items-center justify-content-center flex-column why-content">
+							<h1 class="h1 why-title" data-aos="fade-down">Why We’re Doing This?</h1>
+							<p class="body-text why-desc" data-aos="fade-up">Back in 2019, we were sitting in our
+								apartment eating fast food and watching Netflix with 300 TV shows in the queue scrolling
+								through our Instagram feed mindlessly. We knew there had to be a better way. <br><br>
+								For years we tried to outsmart that feeling of distraction, but it never worked.
+								Instead, after hundreds of failed attempts, we decided to build something that could
+								help us focus — and help others focus too. <br><br>
+								That resulted in Indistractable: An android launcher designed for people who want to
+								live a distraction free life by reducing mental noise and clearing the path for
+								creativity & productivity. There are no social media buttons or arrays of irrelevant
+								apps to distract you.</p>
 						</div>
-						<!-- End - Benefit Card 1 -->
-						<!-- Benefit Card 2 -->
-						<div class="card benefit-card">
-							<div class="row benefit-card-row mobile-first">
-								<div class="col-md-1"></div>
-								<div class="col-md-4" data-aos="fade-right">
-									<div class="card-body d-flex align-items-center justify-content-center flex-column benefit-card-body benefit-card-img-body">
-										<img src="Assets/Images/Benefit 2.webp" alt="..." class="benefit-card-img">
-									</div>
-								</div>
-								<div class="col-md-1"></div>
-								<div class="col-md-6" data-aos="fade-left">
-									<div class="card-body d-flex align-items-start justify-content-center flex-column benefit-card-body benefit-card-text-body">
-										<h1 class="card-title h1 benefit-card-title">Get Things Done</h1>
-										<h4 class="card-text h4 benefit-card-desc">Stay on top of your day with in-built minimal tasks that you can access on the home screen.</h4>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End - Benefit Card 2 -->
-						<!-- Benefit Card 3 -->
-						<div class="card benefit-card">
-							<div class="row benefit-card-row">
-								<div class="col-md-1"></div>
-								<div class="col-md-6" data-aos="fade-right">
-									<div class="card-body d-flex align-items-start justify-content-center flex-column benefit-card-body benefit-card-text-body">
-										<h1 class="card-title h1 benefit-card-title">Fully Customizable</h1>
-										<h4 class="card-text h4 benefit-card-desc">Customize your launcher by adding & removing widgets,changing fonts, colors, icons & more.</h4>
-									</div>
-								</div>
-								<div class="col-md-1"></div>
-								<div class="col-md-4" data-aos="fade-left">
-									<div class="card-body d-flex align-items-center justify-content-center flex-column benefit-card-body">
-										<img src="Assets/Images/Benefit 3.webp" alt="..." class="benefit-card-img">
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End - Benefit Card 3 -->
-						<!-- Benefit Card 4 -->
-						<div class="card benefit-card">
-							<div class="row benefit-card-row mobile-first">
-								<div class="col-md-1"></div>
-								<div class="col-md-4" data-aos="fade-right">
-									<div class="card-body d-flex align-items-center justify-content-center flex-column benefit-card-body benefit-card-img-body">
-										<img src="Assets/Images/Benefit 4.webp" alt="..." class="benefit-card-img">
-									</div>
-								</div>
-								<div class="col-md-1"></div>
-								<div class="col-md-6" data-aos="fade-left">
-									<div class="card-body d-flex align-items-start justify-content-center flex-column benefit-card-body benefit-card-text-body">
-										<h1 class="card-title h1 benefit-card-title">Unlock Productivity</h1>
-										<h4 class="card-text h4 benefit-card-desc">Customise home screen to show year progress & day progress to Focus on what matters.</h4>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End - Benefit Card 4 -->
-						<!-- Benefit Card 5 -->
-						<div class="card benefit-card">
-							<div class="row benefit-card-row">
-								<div class="col-md-1"></div>
-								<div class="col-md-6" data-aos="fade-right">
-									<div class="card-body d-flex align-items-start justify-content-center flex-column benefit-card-body benefit-card-text-body">
-										<h1 class="card-title h1 benefit-card-title">Minimal App Drawer</h1>
-										<h4 class="card-text h4 benefit-card-desc">Swipe left on home screen to access all the apps on your phone with a minimal floatable app drawer.</h4>
-									</div>
-								</div>
-								<div class="col-md-1"></div>
-								<div class="col-md-4" data-aos="fade-left">
-									<div class="card-body d-flex align-items-center justify-content-center flex-column benefit-card-body">
-										<img src="Assets/Images/Benefit 5.webp" alt="..." class="benefit-card-img">
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End - Benefit Card 5 -->
-						<!-- Benefit Card 6 -->
-						<div class="card benefit-card">
-							<div class="row benefit-card-row mobile-first">
-								<div class="col-md-1"></div>
-								<div class="col-md-4" data-aos="fade-right">
-									<div class="card-body d-flex align-items-center justify-content-center flex-column benefit-card-body benefit-card-img-body">
-										<img src="Assets/Images/Benefit 6.webp" alt="..." class="benefit-card-img">
-									</div>
-								</div>
-								<div class="col-md-1"></div>
-								<div class="col-md-6" data-aos="fade-left">
-									<div class="card-body d-flex align-items-start justify-content-center flex-column benefit-card-body benefit-card-text-body">
-										<h1 class="card-title h1 benefit-card-title">Animated Weather</h1>
-										<h4 class="card-text h4 benefit-card-desc">Get to know the weather when you want to step out with a minimalist weather screen having animated icons.</h4>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End - Benefit Card 6 -->
 					</div>
+					<div class="col-md-1 col-lg-2"></div>
 				</div>
 			</div>
-		</section>
-		<section class="overall-benefits-section">
-			<div class="container">
-				<div class="padding-wrapper">
-					<div data-aos="fade-down">
-						<h1 class="h1 overall-benefits-title">Indistractable</h1>
-						<h6 class="h6 overall-benefits-desc">Your life without distractions!</h6>
-					</div>
-					<div class="card d-flex align-items-center justify-content-center overall-benefits-card" data-aos="fade-up">
-						<img src="Assets/Images/Overall benefits.webp" alt="Indistractable">
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End - Benefits Section -->
-		<!-- About us Section -->
-		<section class="about-us-section">
-			<div class="container">
-				<div class="padding-wrapper">
-					<div class="d-flex align-items-center justify-content-center flex-column about-us-cards">
-						<div class="card about-us-card">
-							<div class="row about-us-card-row">
-								<!-- <div class="col-md-1"></div> -->
-								<div class="col-md-7" data-aos="fade-right">
-									<div class="card-body d-flex align-items-start justify-content-center flex-column about-us-card-body about-us-card-body2">
-										<h2 class="card-title h2 about-us-card-title">What is Indistractable?</h2>
-										<p class="card-text body-text about-us-card-desc">We are hooked to our phone and living in a barrage of notifications all day long. Indistractable is a minimalist launcher that helps you live your life distraction free. Yup, it’s time we retake our minds and jump in on this journey of living distraction minimal. <br><br>
-											It’s a simple, ad-free and distraction free launcher with support for a bunch of
-										customizations for your most important tasks. Rediscover how you can be more productive in less time and live a life you always wanted.</p>
-									</div>
-								</div>
-								<!-- <div class="col-md-1"></div> -->
-								<div class="col-md-5" data-aos="fade-left">
-									<div class="card-body d-flex align-items-center justify-content-center flex-column about-us-card-body">
-										<img src="Assets/Images/About us 1.webp" alt="..." class="about-us-card-img1">
-									</div>
-								</div>
+		</div>
+	</section>
+	<!-- End - Why Section -->
+	<!-- Testimonials Section -->
+	<section class="testimonials-section">
+		<div class="container">
+			<div class="padding-wrapper">
+				<h1 class="h1 testimonial-title" data-aos="fade-down">What Our Users Say About Us?</h1>
+				<div class="d-flex align-items-center justify-content-center testimonial-cards">
+					<div class="row">
+						<div class="col-md-6 col-lg-4" data-aos="fade-down">
+							<div class="d-flex align-items-center justify-content-center testimonial-card-wrapper">
+								<blockquote class="twitter-tweet">
+									<p lang="en" dir="ltr">Here&#39;s a quick review of <a
+											href="https://twitter.com/indistract?ref_src=twsrc%5Etfw">@indistract</a>
+										<br>Getting rid of distractions is a challenge while you are working and <a
+											href="https://twitter.com/DaywiseApp?ref_src=twsrc%5Etfw">@DaywiseApp</a> +
+										<a href="https://twitter.com/indistract?ref_src=twsrc%5Etfw">@indistract</a> is
+										a great combination to get rid of all the noise. <a
+											href="https://t.co/gLFYGfB8kA">pic.twitter.com/gLFYGfB8kA</a>
+									</p>&mdash;
+									Abhilash (@findabhilash) <a
+										href="https://twitter.com/findabhilash/status/1283078909639024641?ref_src=twsrc%5Etfw">July
+										14, 2020</a>
+								</blockquote>
+								<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 							</div>
 						</div>
-						<div class="card about-us-card">
-							<div class="row about-us-card-row mobile-first">
-								<!-- <div class="col-md-1"></div> -->
-								<div class="col-md-5" data-aos="fade-right">
-									<div class="card-body d-flex align-items-center justify-content-center flex-column about-us-card-body">
-										<img src="Assets/Images/About us 2.webp" alt="..." class="about-us-card-img2">
-									</div>
-								</div>
-								<!-- <div class="col-md-1"></div> -->
-								<div class="col-md-7" data-aos="fade-left">
-									<div class="card-body d-flex align-items-start justify-content-center flex-column about-us-card-body about-us-card-body2">
-										<h2 class="card-title h2 about-us-card-title">Who are We?</h2>
-										<p class="card-text body-text about-us-card-desc">We're a small team but super excited to be building a	suite of productivity apps to help you live a distraction free life. We believe	that time is precious and phones were created to make our lives easier, not the	other way around. <br><br>
-										At Indistractable, we strive to create an experience to help you do just that and bring out the most of your digital devices.</p>
-									</div>
-								</div>
+						<div class="col-md-6 col-lg-4" data-aos="fade-down" data-aos-delay="200">
+							<div class="d-flex align-items-center justify-content-center testimonial-card-wrapper">
+								<blockquote class="twitter-tweet" data-conversation="none">
+									<p lang="en" dir="ltr">I use the launcher by <a
+											href="https://twitter.com/indistract?ref_src=twsrc%5Etfw">@indistract</a>.
+										Life is simple. :) <a
+											href="https://t.co/T0zTjslt5b">pic.twitter.com/T0zTjslt5b</a></p>&mdash;
+									Hamad Jowher (@HamadJowher) <a
+										href="https://twitter.com/HamadJowher/status/1318552108334014465?ref_src=twsrc%5Etfw">October
+										20, 2020</a>
+								</blockquote>
+								<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4" data-aos="fade-down" data-aos-delay="400">
+							<div class="d-flex align-items-center justify-content-center testimonial-card-wrapper">
+								<blockquote class="twitter-tweet">
+									<p lang="en" dir="ltr">I&#39;ve always enjoyed customizing my computer/phone layouts
+										to help me focus or just fit a mood.<br><br>Before I switched to Mac, I used to
+										hack the bootscreen and regedit every aspect of Windows.<br><br>Trying out the
+										new <a href="https://twitter.com/indistract?ref_src=twsrc%5Etfw">@indistract</a>
+										launcher on my Google Pixel for the winter. <a
+											href="https://t.co/4jTDux7eY2">pic.twitter.com/4jTDux7eY2</a></p>&mdash; 🤩
+									Taylor McKnight (@gtmcknight) <a
+										href="https://twitter.com/gtmcknight/status/1331789135284154368?ref_src=twsrc%5Etfw">November
+										26, 2020</a>
+								</blockquote>
+								<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4" data-aos="fade-down" data-aos-delay="600">
+							<div class="d-flex align-items-center justify-content-center testimonial-card-wrapper">
+								<!-- <div class="card testimonial-card"> -->
+								<blockquote class="twitter-tweet">
+									<p lang="en" dir="ltr">My fave phone launcher 😫 i used it for 2 weeks and I
+										can&#39;t go back to my old one. Thank you for responding to my review and
+										bringing back screen time <a
+											href="https://twitter.com/indistract?ref_src=twsrc%5Etfw">@indistract</a> 🚀
+										<a href="https://t.co/mtum1m8iB2">pic.twitter.com/mtum1m8iB2</a>
+									</p>&mdash;
+									Miriam M. (@miryumburger) <a
+										href="https://twitter.com/miryumburger/status/1335041160117555202?ref_src=twsrc%5Etfw">December
+										5, 2020</a>
+								</blockquote>
+								<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+								<!-- <div class="d-flex align-items-center testimonial-card-social-handles"> -->
+								<!-- </div> -->
+								<!-- </div> -->
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4" data-aos="fade-down" data-aos-delay="800">
+							<div class="d-flex align-items-center justify-content-center testimonial-card-wrapper">
+								<!-- <div class="card testimonial-card testimonial-card-odd"> -->
+								<blockquote class="twitter-tweet">
+									<p lang="en" dir="ltr">Trust me and switch to Indistractable Launcher 😌😍 <a
+											href="https://twitter.com/indistract?ref_src=twsrc%5Etfw">@indistract</a> <a
+											href="https://twitter.com/hashtag/minimalism?src=hash&amp;ref_src=twsrc%5Etfw">#minimalism</a>
+										<a href="https://t.co/JyPbUfELii">pic.twitter.com/JyPbUfELii</a>
+									</p>&mdash; Ege
+									(@egekoeln) <a
+										href="https://twitter.com/egekoeln/status/1336341162802565122?ref_src=twsrc%5Etfw">December
+										8, 2020</a>
+								</blockquote>
+								<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+								<!-- </div> -->
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-4" data-aos="fade-down" data-aos-delay="1000">
+							<div class="d-flex align-items-center justify-content-center testimonial-card-wrapper">
+								<!-- <div class="card testimonial-card"> -->
+								<blockquote class="twitter-tweet">
+									<p lang="en" dir="ltr">Omg! This is what my phone home screen looks like now 😍
+										<br><br>*Also set your phone to only show black &amp; white colors only - magic!
+										<a href="https://twitter.com/indistract?ref_src=twsrc%5Etfw">@indistract</a> <a
+											href="https://t.co/QACiXBZQVx">pic.twitter.com/QACiXBZQVx</a>
+									</p>&mdash;
+									Igor Nefedov (@igornefedovi) <a
+										href="https://twitter.com/igornefedovi/status/1335698968551022597?ref_src=twsrc%5Etfw">December
+										6, 2020</a>
+								</blockquote>
+								<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+								<!-- </div> -->
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
-		<!-- End - About us Section -->
-		<!-- Why Section -->
-		<section class="why-section">
+		</div>
+	</section>
+	<!-- End - Testimonials Section -->
+	<!-- Products Section -->
+	<section class="products-section">
+		<div class="container">
+			<div class="padding-wrapper">
+				<h1 class="h1 products-title" data-aos="fade-down">Products</h1>
+				<div class="d-flex align-items-center justify-content-center flex-column product-cards">
+					<div class="card product-card">
+						<div class="row">
+							<!-- <div class="col-md-1"></div> -->
+							<div class="col-md-6" data-aos="fade-right">
+								<div
+									class="card-body d-flex align-items-start justify-content-center flex-column product-card-body">
+									<h2 class="card-title h2 product-card-title">Android</h2>
+									<p class="card-text body-text product-card-desc">A minimalist launcher app for
+										Android devices. With it, you can swipe away everything that doesn’t matter and
+										focus on what really matters to you with unlimited customization on the premium
+										plan for a price less than cup of your favorite cup of coffee!</p>
+									<a href="https://play.google.com/store/apps/details?id=com.indistractablelauncher.android"
+										class="btn-default2 product-btn">
+										<img src="Assets/Images/Google play.webp" alt="Indistractable">
+									</a>
+								</div>
+							</div>
+							<div class="col-md-1"></div>
+							<div class="col-md-5" data-aos="fade-left">
+								<div
+									class="card-body d-flex align-items-center justify-content-center flex-column product-card-body">
+									<img src="Assets/Images/Benefit 1.webp" alt="..." class="product-card-img1">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card product-card">
+						<div class="row">
+							<!-- <div class="col-md-1"></div> -->
+							<div class="col-md-6" data-aos="fade-right">
+								<div
+									class="card-body d-flex align-items-start justify-content-center flex-column product-card-body">
+									<h2 class="card-title h2 product-card-title">Chrome Extension</h2>
+									<p class="card-text body-text product-card-desc">An Alpha version of our chrome
+										extension to help you block those distractions right away and focus on getting
+										your most important work done!</p>
+									<a href="https://chrome.google.com/webstore/detail/indistractable-minimalist/kfgejlnmhacpkjolplkdpjfklphfighf"
+										class="btn btn-primary body-text btn-default product-btn" target="_blank">Get it
+										on Chrome Web Store</a>
+								</div>
+							</div>
+							<div class="col-md-1"></div>
+							<div class="col-md-5" data-aos="fade-left">
+								<div
+									class="card-body d-flex align-items-center justify-content-center flex-column product-card-body">
+									<img src="Assets/Images/Chrome extension.webp" alt="..." class="product-card-img2">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End - Products Section -->
+	<!-- CTA Section -->
+	<section class="cta-section">
+		<div class="cta-wrapper">
+			<div class="cta-img-wrapper1">
+				<img src="Assets/Images/Cta left.webp" alt="Indistractable" class="cta-img">
+			</div>
 			<div class="container">
 				<div class="padding-wrapper">
 					<div class="row">
-						<div class="col-md-1 col-lg-2"></div>
-						<div class="col-md-10 col-lg-8">
-							<div class="d-flex align-items-center justify-content-center flex-column why-content">
-								<h1 class="h1 why-title" data-aos="fade-down">Why We’re Doing This?</h1>
-								<p class="body-text why-desc" data-aos="fade-up">Back in 2019, we were sitting in our apartment eating fast food and watching Netflix with 300 TV shows in the queue scrolling through our Instagram feed mindlessly. We knew there had to be a better way. <br><br>
-									For years we tried to outsmart that feeling of distraction, but it never worked. Instead, after hundreds of failed attempts, we decided to build something that could help us focus — and help others focus too. <br><br>
-								That resulted in Indistractable: An android launcher designed for people who want to live a distraction free life by reducing mental noise and clearing the path for creativity & productivity. There are no social media buttons or arrays of irrelevant apps to distract you.</p>
-							</div>
-						</div>
-						<div class="col-md-1 col-lg-2"></div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End - Why Section -->
-		<!-- Testimonials Section -->
-		<section class="testimonials-section">
-			<div class="container">
-				<div class="padding-wrapper">
-					<h1 class="h1 testimonial-title" data-aos="fade-down">What Our Users Say About Us?</h1>
-					<div class="d-flex align-items-center justify-content-center testimonial-cards">
-						<div class="row">
-							<div class="col-md-6 col-lg-4" data-aos="fade-down">
-								<div class="d-flex align-items-center justify-content-center testimonial-card-wrapper">
-										<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here&#39;s a quick review of <a href="https://twitter.com/indistract?ref_src=twsrc%5Etfw">@indistract</a> <br>Getting rid of distractions is a challenge while you are working and <a href="https://twitter.com/DaywiseApp?ref_src=twsrc%5Etfw">@DaywiseApp</a> + <a href="https://twitter.com/indistract?ref_src=twsrc%5Etfw">@indistract</a> is a great combination to get rid of all the noise. <a href="https://t.co/gLFYGfB8kA">pic.twitter.com/gLFYGfB8kA</a></p>&mdash; Abhilash (@findabhilash) <a href="https://twitter.com/findabhilash/status/1283078909639024641?ref_src=twsrc%5Etfw">July 14, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>								
+						<div class="col-md-2"></div>
+						<div class="col-md-8">
+							<div
+								class="d-flex align-items-center justify-content-center flex-column cta-content-wrapper">
+								<div data-aos="fade-down">
+									<h1 class="h1 cta-title">Download Indistractable</h1>
+									<p class="body-text cta-desc">Download and use Indistractable from Google Playstore
+										& Chrome Web Store to make your life distraction free!</p>
 								</div>
-							</div>
-							<div class="col-md-6 col-lg-4" data-aos="fade-down" data-aos-delay="200">
-								<div class="d-flex align-items-center justify-content-center testimonial-card-wrapper">
-									<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">I use the launcher by <a href="https://twitter.com/indistract?ref_src=twsrc%5Etfw">@indistract</a>. Life is simple. :) <a href="https://t.co/T0zTjslt5b">pic.twitter.com/T0zTjslt5b</a></p>&mdash; Hamad Jowher (@HamadJowher) <a href="https://twitter.com/HamadJowher/status/1318552108334014465?ref_src=twsrc%5Etfw">October 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-								</div>
-							</div>
-							<div class="col-md-6 col-lg-4" data-aos="fade-down" data-aos-delay="400">
-								<div class="d-flex align-items-center justify-content-center testimonial-card-wrapper">
-									<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;ve always enjoyed customizing my computer/phone layouts to help me focus or just fit a mood.<br><br>Before I switched to Mac, I used to hack the bootscreen and regedit every aspect of Windows.<br><br>Trying out the new <a href="https://twitter.com/indistract?ref_src=twsrc%5Etfw">@indistract</a> launcher on my Google Pixel for the winter. <a href="https://t.co/4jTDux7eY2">pic.twitter.com/4jTDux7eY2</a></p>&mdash; 🤩 Taylor McKnight (@gtmcknight) <a href="https://twitter.com/gtmcknight/status/1331789135284154368?ref_src=twsrc%5Etfw">November 26, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-								</div>
-							</div>
-							<div class="col-md-6 col-lg-4" data-aos="fade-down" data-aos-delay="600">
-								<div class="d-flex align-items-center justify-content-center testimonial-card-wrapper">
-									<!-- <div class="card testimonial-card"> -->
-										<blockquote class="twitter-tweet"><p lang="en" dir="ltr">My fave phone launcher 😫 i used it for 2 weeks and I can&#39;t go back to my old one. Thank you for responding to my review and bringing back screen time <a href="https://twitter.com/indistract?ref_src=twsrc%5Etfw">@indistract</a> 🚀 <a href="https://t.co/mtum1m8iB2">pic.twitter.com/mtum1m8iB2</a></p>&mdash; Miriam M. (@miryumburger) <a href="https://twitter.com/miryumburger/status/1335041160117555202?ref_src=twsrc%5Etfw">December 5, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-										<!-- <div class="d-flex align-items-center testimonial-card-social-handles"> -->
-										<!-- </div> -->
-									<!-- </div> -->
-								</div>
-							</div>
-							<div class="col-md-6 col-lg-4" data-aos="fade-down" data-aos-delay="800">
-								<div class="d-flex align-items-center justify-content-center testimonial-card-wrapper">
-									<!-- <div class="card testimonial-card testimonial-card-odd"> -->
-										<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Trust me and switch to Indistractable Launcher 😌😍 <a href="https://twitter.com/indistract?ref_src=twsrc%5Etfw">@indistract</a> <a href="https://twitter.com/hashtag/minimalism?src=hash&amp;ref_src=twsrc%5Etfw">#minimalism</a> <a href="https://t.co/JyPbUfELii">pic.twitter.com/JyPbUfELii</a></p>&mdash; Ege (@egekoeln) <a href="https://twitter.com/egekoeln/status/1336341162802565122?ref_src=twsrc%5Etfw">December 8, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-									<!-- </div> -->
-								</div>
-							</div>
-							<div class="col-md-6 col-lg-4" data-aos="fade-down" data-aos-delay="1000">
-								<div class="d-flex align-items-center justify-content-center testimonial-card-wrapper">
-									<!-- <div class="card testimonial-card"> -->
-										<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Omg! This is what my phone home screen looks like now 😍 <br><br>*Also set your phone to only show black &amp; white colors only - magic! <a href="https://twitter.com/indistract?ref_src=twsrc%5Etfw">@indistract</a> <a href="https://t.co/QACiXBZQVx">pic.twitter.com/QACiXBZQVx</a></p>&mdash; Igor Nefedov (@igornefedovi) <a href="https://twitter.com/igornefedovi/status/1335698968551022597?ref_src=twsrc%5Etfw">December 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-									<!-- </div> -->
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End - Testimonials Section -->
-		<!-- Products Section -->
-		<section class="products-section">
-			<div class="container">
-				<div class="padding-wrapper">
-					<h1 class="h1 products-title" data-aos="fade-down">Products</h1>
-					<div class="d-flex align-items-center justify-content-center flex-column product-cards">
-						<div class="card product-card">
-							<div class="row">
-								<!-- <div class="col-md-1"></div> -->
-								<div class="col-md-6" data-aos="fade-right">
-									<div class="card-body d-flex align-items-start justify-content-center flex-column product-card-body">
-										<h2 class="card-title h2 product-card-title">Android</h2>
-										<p class="card-text body-text product-card-desc">A minimalist launcher app for Android devices. With it, you can swipe away everything that doesn’t matter and focus on what really matters to you with unlimited customization on the premium plan for a price less than cup of your favorite cup of coffee!</p>
-										<a href="https://play.google.com/store/apps/details?id=com.indistractablelauncher.android" class="btn-default2 product-btn">
-											<img src="Assets/Images/Google play.webp" alt="Indistractable">
-										</a>
-									</div>
-								</div>
-								<div class="col-md-1"></div>
-								<div class="col-md-5" data-aos="fade-left">
-									<div class="card-body d-flex align-items-center justify-content-center flex-column product-card-body">
-										<img src="Assets/Images/Benefit 1.webp" alt="..." class="product-card-img1">
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="card product-card">
-							<div class="row">
-								<!-- <div class="col-md-1"></div> -->
-								<div class="col-md-6" data-aos="fade-right">
-									<div class="card-body d-flex align-items-start justify-content-center flex-column product-card-body">
-										<h2 class="card-title h2 product-card-title">Chrome Extension</h2>
-										<p class="card-text body-text product-card-desc">An Alpha version of our chrome extension to help you block those distractions right away and focus on getting your most important work done!</p>
-										<a href="https://chrome.google.com/webstore/detail/indistractable-minimalist/kfgejlnmhacpkjolplkdpjfklphfighf" class="btn btn-primary body-text btn-default product-btn" target="_blank">Get it on Chrome Web Store</a>
-									</div>
-								</div>
-								<div class="col-md-1"></div>
-								<div class="col-md-5" data-aos="fade-left">
-									<div class="card-body d-flex align-items-center justify-content-center flex-column product-card-body">
-										<img src="Assets/Images/Chrome extension.webp" alt="..." class="product-card-img2">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End - Products Section -->
-		<!-- CTA Section -->
-		<section class="cta-section">
-			<div class="cta-wrapper">
-				<div class="cta-img-wrapper1">
-					<img src="Assets/Images/Cta left.webp" alt="Indistractable" class="cta-img">
-				</div>
-				<div class="container">
-					<div class="padding-wrapper">
-						<div class="row">
-							<div class="col-md-2"></div>
-							<div class="col-md-8">
-								<div class="d-flex align-items-center justify-content-center flex-column cta-content-wrapper">
-									<div data-aos="fade-down">
-										<h1 class="h1 cta-title">Download Indistractable</h1>
-										<p class="body-text cta-desc">Download and use Indistractable from Google Playstore & Chrome Web Store to make your life distraction free!</p>
-									</div>
-									<div class="d-flex btn-group cta-btn-group" data-aos="fade-up">
-										<a href="https://play.google.com/store/apps/details?id=com.indistractablelauncher.android" class="btn-default2 cta-btn">
-											<img src="Assets/Images/Google play.webp" alt="Indistractable">
-										</a>
-										<a href="https://chrome.google.com/webstore/detail/indistractable-minimalist/kfgejlnmhacpkjolplkdpjfklphfighf" class="btn btn-primary body-text btn-default" target="_blank">
+								<div class="d-flex btn-group cta-btn-group" data-aos="fade-up">
+									<a href="https://play.google.com/store/apps/details?id=com.indistractablelauncher.android"
+										class="btn-default2 cta-btn">
+										<img src="Assets/Images/Google play.webp" alt="Indistractable">
+									</a>
+									<a href="https://chrome.google.com/webstore/detail/indistractable-minimalist/kfgejlnmhacpkjolplkdpjfklphfighf"
+										class="btn btn-primary body-text btn-default" target="_blank">
 										Get it on Chrome Web Store</a>
-									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="cta-img-wrapper2">
-					<img src="Assets/Images/Cta right.webp" alt="Indistractable" class="cta-img">
-				</div>
 			</div>
-		</section>
-		<!-- End - CTA Section -->
-		<!-- Footer -->
-		<footer class="mt-auto">
-			<div class="container">
-				<div class="padding-wrapper">
-					<div class="footer-wrapper d-flex">
-						<div class="d-flex justify-content-center social-icons footer-social-icons">
-							<a class="d-flex justify-content-center social-icon footer-social-icon" target="_blank" href="">
-								<img src="Assets/Images/Twitter.svg" alt="Indistractable Twitter Profile">
-							</a>
-							<a class="d-flex justify-content-center social-icon footer-social-icon" target="_blank" href="">
-								<img src="Assets/Images/Instagram.svg" alt="Indistractable Instagram Profile">
-							</a>
-							<a class="d-flex justify-content-center social-icon footer-social-icon" target="_blank" href="">
-								<img src="Assets/Images/Mail.svg" alt="Indistractable Mail Link">
-							</a>
-						</div>
-						<p class="body-text-2 footer-copyright">©2018 - Indistractable &nbsp; | &nbsp; All right reserved</p>
+			<div class="cta-img-wrapper2">
+				<img src="Assets/Images/Cta right.webp" alt="Indistractable" class="cta-img">
+			</div>
+		</div>
+	</section>
+	<!-- End - CTA Section -->
+	<!-- Footer -->
+	<footer class="mt-auto">
+		<div class="container">
+			<div class="padding-wrapper">
+				<div class="footer-wrapper d-flex">
+					<div class="d-flex justify-content-center social-icons footer-social-icons">
+						<a class="d-flex justify-content-center social-icon footer-social-icon" target="_blank" href="https://twitter.com/indistract">
+							<img src="Assets/Images/Twitter.svg" alt="Indistractable Twitter Profile">
+						</a>
+						<a class="d-flex justify-content-center social-icon footer-social-icon" target="_blank" href="https://www.instagram.com/indistract.able/">
+							<img src="Assets/Images/Instagram.svg" alt="Indistractable Instagram Profile">
+						</a>
+						<a class="d-flex justify-content-center social-icon footer-social-icon" target="_blank" href="mailto: feedback@indistractable.xyz">
+							<img src="Assets/Images/Mail.svg" alt="Indistractable Mail Link">
+						</a>
 					</div>
+					<!-- <p class="body-text-2 footer-copyright">©2020 - Indistractable &nbsp; | &nbsp; All right reserved -->
+					</p>
 				</div>
 			</div>
-		</footer>
-		<!-- End Footer -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-		<script>
-			AOS.init();
-		</script>
-	</body>
+		</div>
+	</footer>
+	<!-- End Footer -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+		crossorigin="anonymous"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+
 </html>
